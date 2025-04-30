@@ -1,1 +1,2 @@
+2.0.0 - add fastAPI endpoint, add neural_network
 1.0.0 - add xgb_cassifier, random_forest_classifier, download_data
