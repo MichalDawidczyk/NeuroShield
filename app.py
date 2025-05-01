@@ -6,9 +6,7 @@ app = FastAPI()
 
 @app.post("/predict/")
 def predict(transaction: Transaction):
-    print("Before calling predict_fraud...")
     result = predict_fraud(transaction)
-    print("After calling predict_fraud...")
     return result
 
 @app.get("/healthCheck")
